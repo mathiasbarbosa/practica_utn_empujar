@@ -1,0 +1,36 @@
+:root{
+    --color_1: #559E54;
+    --color_2: #9A0794;
+}
+
+
+body{
+    background-color: var(--color_1);
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: var(--color_2);
+    font-size: 3rem;
+}
+
+a{
+    width: 30%;
+    border: 1px solid var(--color_2);
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--color_2);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: var(--color_2);
+    color: var(--color_1);
+}
